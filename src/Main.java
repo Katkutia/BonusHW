@@ -1,11 +1,11 @@
 
 public class Main {
     public static void main(String[] args) {
-        int initialBalance = 1500;
-        int addend = 750;
+        int initialBalance = 700;
+        int addend = 1750;
 
         int bonus = 0;
-        if (addend>1000) {
+        if (addend > 1000) {
             bonus = addend / 100;
         }
 
@@ -16,4 +16,4 @@ public class Main {
     }
 
 
-    }
+}
